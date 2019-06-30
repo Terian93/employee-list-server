@@ -13,7 +13,7 @@ module.exports = {
     sex: { type: 'string' },
     dateOfBirth: { type: 'string', columnType: 'date' },
     experience: { type: 'string' },
-    technologies: { type: 'json', columnType: 'array' },
+    technologies: { type: 'string'},
     email: { type: 'string' },
     phone: { type: 'string' }
   }
