@@ -20,7 +20,7 @@ module.exports = {
 
     default: {
       adapter: 'sails-mongo',
-      url: 'mongodb://localhost:27017/employes',
+      url: 'mongodb://localhost:27017/employes', // local mongodb server ver: 3.4.21
     },
   
     /***************************************************************************
